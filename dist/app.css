@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-nav {
+  height: 70px;
+  width: 100%;
+  background-color: #303a45;
+}
+
+.container-nav .row-nav {
+  height: 70px;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.container-nav .row-nav h1 {
+  font-size: 70px;
+}
+
+.container-nav .row-nav .logo-spotify {
+  height: 50px;
+  width: 50px;
+}
+
+.container-nav .row-nav .logo-spotify img {
+  height: 50px;
+  width: 50px;
+}
+
+.container-centrale {
+  height: 1300px;
+  width: 100%;
+  background-color: #212d3a;
+}
+
+.container-centrale .container-centrale-album {
+  height: 1100px;
+  width: 55%;
+  margin: 0px auto;
+  padding-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-centrale .container-centrale-album .album {
+  height: 340px;
+  width: calc(80% / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  background-color: #303a45;
+}
+
+.container-centrale .container-centrale-album .album img {
+  padding: 15px;
+  height: 180px;
+  width: 190px;
+}
+
+.container-centrale .container-centrale-album .album h2 {
+  padding: 10px 10px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.container-centrale .container-centrale-album .album h3 {
+  font-size: 17px;
+  color: rgba(226, 226, 226, 0.3);
+}
+

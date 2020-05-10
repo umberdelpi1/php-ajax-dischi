@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+// *********** ||| NAV ||| ***********
+.container-nav {
+  height: 70px;
+  width: 100%;
+  background-color: #303a45;
+  .row-nav {
+    height: 70px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    h1{
+      font-size: 70px;
+    }
+    .logo-spotify {
+      height: 50px;
+      width: 50px;
+      img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+}
+// *********** ||| CONT CENTRALE ||| ***********
+.container-centrale {
+  height: 1300px;
+  width: 100%;
+  background-color: #212d3a;
+  .container-centrale-album {
+    height: 1100px;
+    width: 55%;
+    margin: 0px auto;
+    padding-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .album {
+      height: 340px;
+      width: calc(80% / 4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      background-color: #303a45;
+      img {
+        padding:15px;
+        height: 180px;
+        width: 190px;
+      }
+      h2 {
+        padding: 10px 10px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      h3 {
+        font-size: 17px;
+        color: rgba(226,226,226,.3);
+      }
+    }
+  }
+}
