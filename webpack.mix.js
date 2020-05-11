@@ -1,11 +1,10 @@
 let mix = require('laravel-mix');
 mix
-  // .js('src/app.js', 'dist/')
+  .js('src/app.js', 'dist/')
   .sass('src/app.scss', 'dist/')
   .copy('src/index.php', 'dist/')
   .copy('src/api.php', 'dist/')
-  .copy('milestone2/index.html', 'dist/')
-  .js('milestone2/main.js', 'dist/');
+  .copy('milestone2/index.html', 'dist/');
 
 
 
